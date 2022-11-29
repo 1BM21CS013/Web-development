@@ -1,0 +1,194 @@
+body {
+    padding: 10px;
+    height:80%;
+    overflow: scroll;
+}
+
+
+
+/*NAVIGATION BAR SECTION---------------------------*/
+.navbar {
+    background-color: #153857;
+    width: 10%;
+    height: 100%;
+    position: fixed;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 8px;
+}
+ul {
+    list-style-type: none;
+    padding: 5px; 
+}
+li {
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*---------------------------------------*/
+
+
+
+/*PAGE SECTION---------------------------*/
+.page-active{
+    border-radius: 8px;
+    background-color: white;
+    color: #153857;
+}
+.page-active:hover {
+    border-radius: 8px;
+    background-color: white;
+}
+li:hover{
+    border-radius: 8px;
+    background-color: #6D89A3;
+}
+.page {
+    background-color: white;
+    margin-left: 11%;
+    width: 88%;
+    height: 100%;
+    position: fixed;
+    padding: 0px;
+}
+/*---------------------------------------*/
+
+
+
+/*HEADER SECTION---------------------------*/
+.header {
+    background-color: #6D89A3;
+    height: 7%;
+    margin: 0px;
+    color: white;
+    position: relative;
+    top:0px;
+    border-radius: 8px;
+}
+.sub-header {
+    background-color: #6D89A3;
+    height: 100%;
+    text-align: right;
+    justify-content: center;
+}
+.logo {
+    height:100%;
+}
+/*---------------------------------------*/
+
+
+
+/*STUDENT DETAILS SECTION---------------------------*/
+.student-details {
+    background-color: white;
+    height: 400px;
+
+}
+.student-details, .time-table {
+    margin: 10px;
+}
+.header, .student-details{
+    padding: 10px;
+}
+.profile {
+    display: flex;
+    column-gap: 20px;
+    flex-basis: auto;
+    margin: 15px;
+}
+.profile-picture{
+    background-color: #F7F7F7;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-details{
+    background-color: white;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.profile-pic {
+    width: 100%;
+}
+.field {
+    color: #153857;
+    font-weight: bold;
+}
+.record {
+    color: #6D89A3;
+}
+.field, .record {
+    font-size: 30px;
+    padding: 20px;
+}
+/*---------------------------------------*/
+
+
+
+/*TIME TABLE SECTION---------------------------*/
+.time-table-container {
+    background-color: white;
+    height: 400px;
+    padding: 30px;
+    font-size: 30px; 
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.time-table {
+    background-color: white;
+    height: 400px;
+    padding: 5px;
+    padding-top: 10px;
+    margin: 0px;
+    font-size: 30px;
+    overflow-y: scroll;  
+    text-align: center;
+}
+.timetable-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    table-layout: fixed;
+    width: 100%;
+}
+.days {
+    text-align: left;
+    background-color: #153857;
+    color: white;
+}
+.time {
+    background-color: #6D89A3;
+    color: white;
+    border-color: #6D89A3;
+    font-size: 20px;
+}
+.periods {
+    background-color: white;
+    color: #153857;
+    border-color: #6D89A3;
+}
+.time,.periods {
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 2px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.days{
+    padding: 15px;
+    border-left-color: #153857;
+    border-bottom-color: #153857;
+    box-sizing: border-box;
+}
+.time,.periods,.days{
+    font-size: 20px;
+}
+/*---------------------------------------*/
